@@ -17,16 +17,16 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-6">
                         <div class="footer-contact">
-                            <h2>Get In Touch</h2>
-                            <p><i class="fa fa-map-marker-alt"></i>123 Street, New York, USA</p>
-                            <p><i class="fa fa-phone-alt"></i>+012 345 67890</p>
-                            <p><i class="fa fa-envelope"></i>info@example.com</p>
+                            <h2><?php the_field('footer_text') ?></h2>
+                            <p><i class="fa fa-map-marker-alt"></i><?php the_field('footer_address') ?></p>
+                            <p><i class="fa fa-phone-alt"></i><?php the_field('footer_tel') ?></p>
+                            <p><i class="fa fa-envelope"></i><?php the_field('footer_email') ?></p>
                             <div class="footer-social">
-                                <a class="btn" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn" href=""><i class="fab fa-youtube"></i></a>
-                                <a class="btn" href=""><i class="fab fa-instagram"></i></a>
-                                <a class="btn" href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn" href="<?php the_field('footer_href_1') ?>"><i class="fab fa-twitter"></i></a>
+                                <a class="btn" href="<?php the_field('footer_href_2') ?>"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn" href="<?php the_field('footer_href_3') ?>"><i class="fab fa-youtube"></i></a>
+                                <a class="btn" href="<?php the_field('footer_href_4') ?>"><i class="fab fa-instagram"></i></a>
+                                <a class="btn" href="<?php the_field('footer_href_5') ?>"><i class="fab fa-linkedin-in"></i></a>
                             </div>
                         </div>
                     </div>

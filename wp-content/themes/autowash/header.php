@@ -44,8 +44,8 @@
                     <div class="col-lg-4 col-md-12">
                         <div class="logo">
                             <a href="index.html">
-                                <h1>Auto<span>Wash</span></h1>
-                                <!-- <img src="img/logo.jpg" alt="Logo"> -->
+								<!-- <h1>Auto<span>Wash</span></h1> -->
+                                <img src="<?php the_field('logotype') ?>" alt="Logo">
                             </a>
                         </div>
                     </div>
@@ -58,7 +58,7 @@
                                     </div>
                                     <div class="top-bar-text">
                                         <h3>Opening Hour</h3>
-                                        <p>Mon - Fri, 8:00 - 9:00</p>
+                                        <p><?php the_field('work_schedule')?></p>
                                     </div>
                                 </div>
                             </div>
@@ -69,7 +69,7 @@
                                     </div>
                                     <div class="top-bar-text">
                                         <h3>Call Us</h3>
-                                        <p>+012 345 6789</p>
+                                        <p><?php the_field('telephone') ?></p>
                                     </div>
                                 </div>
                             </div>
@@ -80,7 +80,7 @@
                                     </div>
                                     <div class="top-bar-text">
                                         <h3>Email Us</h3>
-                                        <p>info@example.com</p>
+                                        <p><?php the_field('email') ?></p>
                                     </div>
                                 </div>
                             </div>
